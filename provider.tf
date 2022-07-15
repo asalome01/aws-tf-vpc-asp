@@ -1,5 +1,5 @@
 provider "aws" {
-  #region = ["${module.vpc.AWS_REGION}"]
+  # ####region = ["${module.vpc.AWS_REGION}"]
   region = var.AWS_REGION
 }
 
